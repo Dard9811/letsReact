@@ -19,7 +19,7 @@ class Catalogo extends React.Component{
   }
 
   addProducto(){
-    fetch("addData",{
+    fetch("/addData",{
       method: "POST",
       headers: {
         Accept: "application/json",
